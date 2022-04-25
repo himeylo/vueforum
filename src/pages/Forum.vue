@@ -1,5 +1,5 @@
 <template>
-  <div class="col-full push-top">
+  <div v-if="forum" class="col-full push-top">
       <div class="forum-header">
         <div class="forum-details">
           <h1>{{ forum.name }}</h1>
@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import ThreadList from '@/components/ThreadList.vue'
 import sourceData from '@/data.json'
+import ThreadList from '@/components/ThreadList.vue'
 export default {
   components: { ThreadList },
   props: {
