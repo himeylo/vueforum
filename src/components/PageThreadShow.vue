@@ -1,5 +1,5 @@
 <template>
-  <div class="col-large push-top">
+  <div v-if="thread" class="col-large push-top">
     <h1>{{ thread.title }}</h1>
 
     <div class="post-list">

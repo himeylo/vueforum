@@ -13,6 +13,5 @@ export default {
 
 <style>
 @import "assets/style.css";
-@import 'bootstrap';
-@import 'bootstrap/dist/css/bootstrap.min.css';
+
 </style>

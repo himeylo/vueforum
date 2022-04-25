@@ -9,8 +9,8 @@
 
 <script>
 import { Sandbox } from 'component-fixture'
-import "font-awesome/css/font-awesome.css";
-import "component-fixture/dist/ComponentFixture.css";
+import 'font-awesome/css/font-awesome.css'
+import 'component-fixture/dist/ComponentFixture.css'
 import PageThreadShow from '@/components/PageThreadShow.vue'
 
 export default {
